@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="deng"></p>
+</body>
+</html>
+<script>
+    var str = '套马的汉子你威武雄壮';
+
+    function zifuchuan(){
+        var first = str.slice(0,1);
+
+        var last = str.slice(1,str.length);
+
+        str = last + first;
+
+        console.log(str);
+
+        deng.innerHTML = str;
+    }
+    setInterval(zifuchuan,500);
+
+</script>
